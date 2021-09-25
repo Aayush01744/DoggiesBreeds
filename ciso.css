@@ -1,0 +1,78 @@
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+  font-family: Arial, Helvetica, sans-serif; 
+} 
+nav { 
+  display: flex; 
+  justify-content: center; 
+  height: 55px; 
+  padding: 20px 30px 0px 30px; 
+} 
+ 
+ul { 
+  list-style: none; 
+} 
+img { 
+  box-shadow: 0px 0px 5px rgb(0, 0, 0); 
+  border-radius: 10px; 
+  height: 22vw; 
+  width: 30vw; 
+} 
+nav h1 { 
+  width: 233px; 
+} 
+#doggies { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+} 
+.AddCard { 
+  width: 30vw; 
+  overflow-x: hidden; 
+} 
+#display-more { 
+  font-size: 17px; 
+  margin-top: 20px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  display: none; 
+  height: 38px; 
+  width: 150px; 
+  color: azure; 
+  padding: 7px 15px; 
+  background-image: linear-gradient(to right, rgb(172, 0, 0), rgb(0, 201, 0)); 
+} 
+ 
+.contentBx h3 { 
+  color: rgb(160, 0, 120); 
+} 
+.contentBx p { 
+  color: rgb(0, 107, 0); 
+} 
+@media screen and (max-width: 1000px) { 
+  img { 
+    box-shadow: 0px 0px 5px rgb(0, 0, 0); 
+    border-radius: 10px; 
+    height: 32vw; 
+    width: 47vw; 
+  } 
+  .AddCard { 
+    width: 48vw; 
+    overflow-x: hidden; 
+  } 
+} 
+ 
+@media screen and (max-width: 600px) { 
+  img { 
+    box-shadow: 0px 0px 5px rgb(0, 0, 0); 
+    border-radius: 10px; 
+    height: 62vw; 
+    width: 90vw; 
+  } 
+  .AddCard { 
+    width: 91vw; 
+    overflow-x: hidden; 
+  } 
+}
